@@ -9,7 +9,7 @@ variable "instance_type" {
 variable "ec2_tags" {
   type = map(string)
   default = {
-    Name = "john.07-vm1"
+    Name        = "john.07-vm1"
     Environment = "testing"
   }
 }
